@@ -492,3 +492,20 @@ copyright {
   text-decoration: none;   /* 🔥 underline remove */
   display: inline-flex;    /* icon clean alignment */
 }
+@media (max-width: 768px) {
+  .hero {
+    padding-top: 120px;   /* 🔥 circle ke liye space */
+    padding-bottom: 60px;
+  }
+}
+@media (max-width: 768px) {
+  .animated-circle {
+    width: 240px;
+    height: 240px;
+  }
+}
+@media (max-width: 768px) {
+  .hero-image {
+    margin-top: 20px;
+  }
+}
